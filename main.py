@@ -105,9 +105,11 @@ def resumir_ai(conteudo, arquivo_titulo):
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     # Aqui eu baixei os vídeos com outro script e os coloquei na pasta abaixo, então nesse script eu apenas o processo
-    # processar_videos_pasta('NRF2024/NRF 2024 Exhibitor Big Ideas')
-    print(os.getenv("OPENAI_TOKEN"))
-    print(os.getenv("NOTION_DATABASE_ID"))
+    # exemplo de uso:
+    # processar_videos_pasta('pasta/de/videos')
+ 
+    processar_videos_pasta('NRF2024/NRF 2024 Exhibitor Big Ideas')
+
 
 if __name__ == '__main__':
     start_time = time.time()  # Tempo inicial
