@@ -1,0 +1,6 @@
+.env
+.venv/*
+__pycache__/*
+NRF2024/*
+processados/*
+transcricoes/*
